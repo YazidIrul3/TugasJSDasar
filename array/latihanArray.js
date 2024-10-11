@@ -1,5 +1,4 @@
 const arrAngka = [20, 40, 50, 10];
-let hasil = -1;
 
 const soal1 = () =>
   arrAngka.map((e) => e).reduce((acc, curr) => acc + curr) / arrAngka.length;
@@ -27,11 +26,3 @@ console.log(soal1());
 console.log(soal2());
 console.log(soal3());
 console.log(soal4(10));
-
-const arr = [20, 40, 23.4, 44];
-let ang = 0;
-
-for (let i = 0; i < arr.length; i++) {
-  ang = arr[i];
-  console.log(ang);
-}
